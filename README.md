@@ -1,5 +1,5 @@
 # CombinatorialMusic
-The idea is simple: I consider generation of permutations as a dynamic process in which a successor permutation p' is generated from an input permutation p according to the process described in https://www.slideshare.net/VincenzoDeFlorio/turing-permutations
+The idea is simple: I consider generation of permutations as a dynamic process in which a successor permutation p' is generated from an input permutation p.
 
 I take those orbits, I break them into three chunks, map each chunk to a note, and play the three notes together -- that's it.
 
@@ -55,3 +55,9 @@ Note: permusic.sh requires
 
 ## More information
 Feel free to contact me at Eidon@tutanota.com
+
+# Versions
+- V0.1 2018-06-17:
+    Added options -L (with layout; default) and -l (without layout). When calling lily2data with -l, score is not printed and only the midi file is created.
+    Now permusic.sh stops when one of the production stages fail.
+    New script permusic_nopdf.sh is the same as permusic.h but option -l is issued for lily2data (see above).
