@@ -19,7 +19,9 @@ fi
 
 perm $perm > $perm.dat 
 
-data2lily -i $perm.dat -o $perm.ly -m glockenspiel -m harp -m celesta
+# data2lily -i $perm.dat -o $perm.ly -m glockenspiel -m celesta -m kalimba
+# data2lily -i $perm.dat -o $perm.ly -m koto -m shakuhachi -m shamisen
+data2lily -i $perm.dat -o $perm.ly -m koto -m glockenspiel -m kalimba
 
 lilypond $perm.ly
 

@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
     char *instruments[4];
 	char *input, *output;
 	int insp;
-	int tempo, beat;
+	int meter, tempo; //tempo, beat;
 
     instruments[0] = "celesta",
 	instruments[1] = "glockenspiel",
@@ -28,8 +28,8 @@ int main(int argc, char *argv[]) {
 
 	input = output = NULL;
 	insp = 0;
-	tempo = 4;
-	beat = 240;
+	meter = 4;
+	tempo = 240;
 
     for (i=1; i<argc; i++) {
 		if ( argv[i][0] == '-' ) {
@@ -66,12 +66,30 @@ int main(int argc, char *argv[]) {
 				}
 				break;
 
+			case 'M':
+				i++;
+				if (i>=argc) {
+					fprintf(stderr, "%s: option -M must be followed by a meter\n", argv[0]);
+					exit(-1);
+				}
+				meter = atoi(argv[i]);
+				break;
+
+			case 'T':
+				i++;
+				if (i>=argc) {
+					fprintf(stderr, "%s: option -T must be followed by a tempo\n", argv[0]);
+					exit(-1);
+				}
+				tempo = atoi(argv[i]);
+				break;
+
 			default:
 				goto err;
 			}
 		}
 		else {
-err:		fprintf(stderr, "Wrong arguments.\nUsage: %s -i input -o output { -m midi-instrument }[0-3]\n", argv[0]);
+err:		fprintf(stderr, "Wrong arguments.\nUsage: %s -i input -o output -M meter -T tempo { -m midi-instrument }[0-3]\n", argv[0]);
 			exit(-1);
 		}
 	}
@@ -146,6 +164,7 @@ err:		fprintf(stderr, "Wrong arguments.\nUsage: %s -i input -o output { -m midi-
 	for (i=0; i<3; i++) {
 		fprintf(g, "           \\new Staff {\n");
 		fprintf(g, "           \\set Staff.instrumentName = #\"Voice %d\"\n", i+1);
+        fprintf(g, "           \\set Staff.midiInstrument = #\"%s\"\n", instruments[i]);
 		fprintf(g, "                <<\n");
 		fprintf(g, "                   {\n");
         fprintf(g, "                      \\set midiInstrument = #\"%s\"\n", instruments[i]);
@@ -170,7 +189,7 @@ err:		fprintf(stderr, "Wrong arguments.\nUsage: %s -i input -o output { -m midi-
 	fprintf(g, "    }\n");
 	fprintf(g, "  }\n");
 
-	fprintf(g, "\\midi { \\tempo %d=%d }\n", tempo, beat);
+	fprintf(g, "\\midi { \\tempo %d=%d }\n", meter, tempo);
 	fprintf(g, "}\n");
 	fprintf(g, "%% EoF\n");
 
