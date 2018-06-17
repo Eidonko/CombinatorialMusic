@@ -18,10 +18,11 @@ if [ $(( l % 3 )) -ne 0 ] ; then
 fi
 
 perm $perm > $perm.dat 
+
 data2lily -i $perm.dat -o $perm.ly -m glockenspiel -m harp -m celesta
 
 lilypond $perm.ly
 
 $timidity $perm.mid -O w -o $perm.wav
 
-lame --abr 160k $perm.wav $perm.mp3
+lame --quiet --abr 160k $perm.wav $perm.mp3 && rm -f $perm.wav
