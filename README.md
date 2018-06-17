@@ -37,6 +37,8 @@ This generates 001111122.ly (Lilypond source), 001111122.pdf (pdf score), 001111
     Notes cut: 0
     Notes lost totally: 0
 
+Output of this very example is available on https://soundcloud.com/user-373798924/001112222a .
+
 ## Requirements
 Note: permusic.sh requires
 
@@ -44,3 +46,5 @@ Note: permusic.sh requires
 - timidity (http://timidity.sourceforge.net/)
 - lame (http://lame.sourceforge.net/download.php) or another wav-to-mp3 converter
 
+## More information
+mailto://Eidon@tutanota.com
