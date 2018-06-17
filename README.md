@@ -1,5 +1,11 @@
 # CombinatorialMusic
-Permutations can be considered as the orbits of a dynamic system p' = succ(p), where p is a permutation and p' is its successor in the lexycographically ordered set of permutations (+ Nil). This code translates those orbits into simple 3-voice music scores.
+The idea is simple: I consider generation of permutations as a dynamic process in which a successor permutation p' is generated from an input permutation p according to the process described in https://www.slideshare.net/VincenzoDeFlorio/turing-permutations
+
+I take those orbits, I break them into three chunks, map each chunk to a note, and play the three notes together -- that's it.
+
+The thing that strikes me is that this gives rise to patterns that, at least to me, seem interesting. An example is 001112222, available on my soundcloud account: https://soundcloud.com/user-373798924/001112222a
+
+This non-triviality may be due to the fractal nature of the process. In fact, when mapping the same process on a 3D space, I get images that are self-similar and, according to the Fractalyse tool, are characterised by a fractal dimension (see e.g. https://www.dropbox.com/s/rrjqrffx9bqzuxh/001112222.jpg?dl=0; image produced with https://github.com/Eidonko/Permutation-feed-povray).
 
 ## Syntax
 
@@ -38,6 +44,7 @@ This generates 001111122.ly (Lilypond source), 001111122.pdf (pdf score), 001111
     Notes lost totally: 0
 
 Output of this very example is available on https://soundcloud.com/user-373798924/001112222a .
+
 
 ## Requirements
 Note: permusic.sh requires
