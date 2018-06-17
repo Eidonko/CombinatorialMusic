@@ -25,8 +25,8 @@ if [[ "$?" -ne 0 ]] ; then
 	exit 2
 fi
 
-# add "-l" to avoid printing the score
-data2lily -i $perm.dat -o $perm.ly -m celesta -m glockenspiel -m kalimba
+# remove "-l" to print the score
+data2lily -i $perm.dat -o $perm.ly -m celesta -m glockenspiel -m kalimba -l
 
 if [ $? -ne 0 ]; then
     echo "data2lily -i $perm failed -- aborting execution"

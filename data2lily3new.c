@@ -1,8 +1,14 @@
+/*
+ * data2lily
+ * takes the input of perm.w and produces a Lilypond input score
+ *
+ * by Eidon (Eidon@tutanota.com), 2018
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#define MAXN  20000
+#define MAXN  50000
 
 void Trk(int[], int, FILE*);
 
@@ -21,15 +27,18 @@ int main(int argc, char *argv[]) {
 	char *input, *output;
 	int insp;
 	int meter, tempo; //tempo, beat;
+	int layout;
+	char *pref;
 
     instruments[0] = "celesta",
 	instruments[1] = "glockenspiel",
-	instruments[2] = "harp";
+	instruments[2] = "piano";
 
 	input = output = NULL;
 	insp = 0;
 	meter = 4;
 	tempo = 240;
+	layout = 1;
 
     for (i=1; i<argc; i++) {
 		if ( argv[i][0] == '-' ) {
@@ -82,6 +91,13 @@ int main(int argc, char *argv[]) {
 					exit(-1);
 				}
 				tempo = atoi(argv[i]);
+				break;
+
+			case 'l':
+				layout = 0;
+				break;
+			case 'L':
+				layout = 1;
 				break;
 
 			default:
@@ -182,12 +198,13 @@ err:		fprintf(stderr, "Wrong arguments.\nUsage: %s -i input -o output -M meter -
     fprintf(g, "   >>\n");
 	//fprintf(g, "}\n");
 
-	fprintf(g, "\\layout {\n");
-	fprintf(g, "  \\context {\n");
-	fprintf(g, "      \\Score\n");
-	fprintf(g, "      \\override SystemStartBar.collapse-height = #30\n");
-	fprintf(g, "    }\n");
-	fprintf(g, "  }\n");
+	pref = (layout)?  "" : "% ";
+	fprintf(g, "%s\\layout {\n", pref);
+	fprintf(g, "%s  \\context {\n", pref);
+	fprintf(g, "%s      \\Score\n", pref);
+	fprintf(g, "%s      \\override SystemStartBar.collapse-height = #30\n", pref);
+	fprintf(g, "%s    }\n", pref);
+	fprintf(g, "%s  }\n", pref);
 
 	fprintf(g, "\\midi { \\tempo %d=%d }\n", meter, tempo);
 	fprintf(g, "}\n");
