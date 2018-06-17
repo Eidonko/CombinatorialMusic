@@ -2,7 +2,7 @@
 
 \header {
    title = "001112222.dat"
-   composer = "HeartQuake and Data2Lilypond"
+   composer = "Eidon@tutanota.com"
 }
 
 \score {
@@ -12,11 +12,10 @@
            \set Staff.instrumentName = #"Voice 1"
                 <<
                    {
-                      \set midiInstrument = #"glockenspiel"
+                      \set midiInstrument = #"celesta"
                       \clef bass
                       \time 4/4
-  {   \set midiInstrument = #"glockenspiel" 
-	  cis, 
+  {   \clef bass cis, 
       cis, cis, cis, cis, cis, cis, cis, cis, cis, cis, 
       cis, cis, cis, cis, d, d, d, d, d, d, 
       d, d, d, d, d, d, d, d, d, d, 
@@ -151,11 +150,10 @@
            \set Staff.instrumentName = #"Voice 2"
                 <<
                    {
-                      \set midiInstrument = #"harp"
+                      \set midiInstrument = #"glockenspiel"
                       \clef bass
                       \time 4/4
-  {   \set midiInstrument = #"harp"
-	  d  
+  {   \clef bass d  
       e  f  f  f  ais  b  b  b  cis' cis' 
       cis' d' d' d' cis  d  d  d  e  e  
       e  f  f  f  ais  ais  ais  b  b  b  
@@ -290,11 +288,10 @@
            \set Staff.instrumentName = #"Voice 3"
                 <<
                    {
-                      \set midiInstrument = #"celesta"
+                      \set midiInstrument = #"harp"
                       \clef bass
                       \time 4/4
-  {   \set midiInstrument = #"celesta"
-	  d' 
+  {   \clef bass d' 
       d' f  b  cis' d' f  b  cis' f  b  
       cis' d  e  ais  d' f  b  cis' f  b  
       cis' d  e  ais  f  b  cis' d  e  ais  
