@@ -47,4 +47,4 @@ Note: permusic.sh requires
 - lame (http://lame.sourceforge.net/download.php) or another wav-to-mp3 converter
 
 ## More information
-mailto://Eidon@tutanota.com
+Feel free to contact me at Eidon@tutanota.com
