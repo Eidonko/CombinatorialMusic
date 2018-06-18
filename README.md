@@ -45,13 +45,23 @@ This generates 001111122.ly (Lilypond source), 001111122.pdf (pdf score), 001111
 
 Output of this very example is available on https://soundcloud.com/user-373798924/001112222a .
 
+## ...In more details
+permusic.sh and permusic_nopdf.sh execute as a pipeline of processes:
+
+- perm _string_ creates a file of "triplets": integers translating a permutation into three comma-separated integers corresponding to the three chunks mentioned at the top. Let me call this file "the datfile"
+- data2lily -i _datfile_ -o _lilypondfile_ -m '_instrument1_' -m '_instrument2_' -m '_instrument3_' : this one converts the _datfile_ into the Lilypond source _lilypondfile_, specifying as MIDI instruments _instrument*_
+- lilypond _lilypondfile_ : creates the MIDI file and (when using permusic.h) tries to create a PDF score
+- timidity _midifile_ -O w _wavfile_ : converts the MIDI file into a WAV file
+- lame --abr 160k _wavfile_ _mp3file_ : converts the WAV file into an MP3 file
+
+The WAV file is then deleted.
 
 ## Requirements
 Note: permusic.sh requires
 
-- lilypond 2.8 (http://lilypond.org/)
-- timidity (http://timidity.sourceforge.net/)
-- lame (http://lame.sourceforge.net/download.php) or another wav-to-mp3 converter
+- Lilypond 2.8 (http://lilypond.org/)
+- Timidity (http://timidity.sourceforge.net/)
+- Lame (http://lame.sourceforge.net/download.php) or another wav-to-mp3 converter
 
 ## More information
 Feel free to contact me at Eidon@tutanota.com
