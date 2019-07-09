@@ -60,8 +60,10 @@ The WAV file is then deleted.
 Note: permusic.sh requires
 
 - Lilypond 2.8 (http://lilypond.org/)
-- Timidity (http://timidity.sourceforge.net/)
+- TiMidity (http://timidity.sourceforge.net/)
 - Lame (http://lame.sourceforge.net/download.php) or another wav-to-mp3 converter
+
+Note: TiMidity requires soundfonts and a proper configuration thereof. I would suggest you to follow the guidelines at https://www.rosegardenmusic.com/wiki/setting_up_the_fluidr3_gm.sf2_for_timidity.
 
 ## More information
 Feel free to contact me at Eidon@tutanota.com
@@ -71,3 +73,6 @@ Feel free to contact me at Eidon@tutanota.com
     Added options -L (with layout; default) and -l (without layout). When calling lily2data with -l, score is not printed and only the midi file is created.
     Now permusic.sh stops when one of the production stages fail.
     New script permusic_nopdf.sh is the same as permusic.h but option -l is issued for lily2data (see above).
+- V0.2 2019-07-09:
+    Removed bug in permusic.sh and in Makefile
+    Improved README.md
