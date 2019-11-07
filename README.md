@@ -7,6 +7,21 @@ The thing that strikes me is that this gives rise to patterns that, at least to 
 
 This non-triviality may be due to the fractal nature of the process. In fact, when mapping the same process on a 3D space, I get images that are self-similar and, according to the Fractalyse tool, are characterised by a fractal dimension (see e.g. https://www.dropbox.com/s/rrjqrffx9bqzuxh/001112222.jpg?dl=0; image produced with https://github.com/Eidonko/Permutation-feed-povray).
 
+## News
+
+Czech composer Flavigula has published a piece of music that uses my approach!
+Here is their "Šest": https://exode.me/videos/watch/95c0f6a2-2423-4189-a6f9-5908e1efaf2c, and here is their announcement: https://sonomu.club/@flavigula/103096645941388869
+
+I have been collecting a number of compositions that are based on my approach. They may be found in this videolist: https://open.tube/my-account/video-playlists/94a9f75c-b2b3-4641-8f67-b94aa30960b0 and on youtube in my "Eidon' Songs" channel. Here is partial list:
+
+- Let Me Know https://www.youtube.com/watch?v=Rtgdt55xEKo&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=36
+- Inugami https://www.youtube.com/watch?v=HZjsyeUanrU&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=38
+- Gentle Giant https://www.youtube.com/watch?v=fso05O88GiY&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=39
+- Ipcress https://www.youtube.com/watch?v=Bk-28uow8f4&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=40
+- Haïka a déjà d'... https://www.youtube.com/watch?v=Bk-28uow8f4&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=41
+- Le Capitaine Fracasse https://www.youtube.com/watch?v=Bk-28uow8f4&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=42
+
+
 ## Syntax
 
     $ ./permusic.sh _string_
