@@ -30,6 +30,18 @@ They may be found in this videolist: https://open.tube/my-account/video-playlist
 - Haïka a déjà d'... https://www.youtube.com/watch?v=Bk-28uow8f4&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=41
 - Le Capitaine Fracasse https://www.youtube.com/watch?v=Bk-28uow8f4&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=42
 
+I call the above compositions **Grundgestalts**, because this is the term introduced by Schönbergfor this class of generative processes. I find this quote particularly interesting and enlightening:
+
+> "Whatever happens in a piece of music is the endless reshaping of the basic shape ...
+> There is nothing in a piece of music but what
+> comes from the theme,
+> springs from it and
+> can be traced back to it;
+> to put it still more severely, nothing but the theme itself"
+>          (Arnold Schönberg, ‘Linear Counterpoint’, 1950).
+
+This is in fact what happens with the music generated here: the first chord is x, the second f(x), the third f(f(x)), and so forth. Everything is pre-dermined and springs from the theme, x.
+
 
 ## Syntax
 
