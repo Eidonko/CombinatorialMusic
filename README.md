@@ -9,17 +9,19 @@ This non-triviality may be due to the fractal nature of the process. In fact, wh
 
 ## News
 
-Czech composer Flavigula has published a piece of music that uses my approach!
+### Czech composer Flavigula has published a piece of music that uses my approach!
 Here is their "Šest": https://exode.me/videos/watch/95c0f6a2-2423-4189-a6f9-5908e1efaf2c, and here is their announcement: https://sonomu.club/@flavigula/103096645941388869
 
 ![Flavigula's toot](https://github.com/Eidonko/CombinatorialMusic/blob/master/music-20191108.png)
 
-I received warms words of encouragement from another musician, JS0000: https://sonomu.club/@js0000/103109313152388102 . I'm very grateful, as this encourages me to do more and better! https://sonomu.club/@js0000/103109313152388102
+### I received warms words of encouragement from another musician, JS0000
+I'm very grateful, as this encourages me to do more and better! https://sonomu.club/@js0000/103109313152388102
 
 ![Js0000's toot](https://github.com/Eidonko/CombinatorialMusic/blob/master/music-20191110.png)
 
 
-I have been collecting a number of compositions that are based on my approach. They may be found in this videolist: https://open.tube/my-account/video-playlists/94a9f75c-b2b3-4641-8f67-b94aa30960b0 and on youtube in my "Eidon' Songs" channel. Here is partial list:
+### I have been collecting a number of compositions that are based on my approach. 
+They may be found in this videolist: https://open.tube/my-account/video-playlists/94a9f75c-b2b3-4641-8f67-b94aa30960b0 and on youtube in my "Eidon' Songs" channel. Here is partial list:
 
 - Let Me Know https://www.youtube.com/watch?v=Rtgdt55xEKo&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=36
 - Inugami https://www.youtube.com/watch?v=HZjsyeUanrU&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=38
