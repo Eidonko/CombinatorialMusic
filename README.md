@@ -30,7 +30,7 @@ They may be found in this videolist: https://open.tube/my-account/video-playlist
 - Haïka a déjà d'... https://www.youtube.com/watch?v=Bk-28uow8f4&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=41
 - Le Capitaine Fracasse https://www.youtube.com/watch?v=Bk-28uow8f4&list=PLX1ONCEToSxDfoL_i-vphvjvg0ozlEnBB&index=42
 
-I call the above compositions **Grundgestalts**, because this is the term introduced by Schönbergfor this class of generative processes. I find this quote particularly interesting and enlightening:
+I call the above compositions **Grundgestalts**, because this is the term introduced by Schönberg for this class of generative processes. I find this quote particularly interesting and enlightening:
 
 > "Whatever happens in a piece of music is the endless reshaping of the basic shape ...
 > There is nothing in a piece of music but what
