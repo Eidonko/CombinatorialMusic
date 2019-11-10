@@ -11,6 +11,11 @@ This non-triviality may be due to the fractal nature of the process. In fact, wh
 
 Czech composer Flavigula has published a piece of music that uses my approach!
 Here is their "Šest": https://exode.me/videos/watch/95c0f6a2-2423-4189-a6f9-5908e1efaf2c, and here is their announcement: https://sonomu.club/@flavigula/103096645941388869
+![](https://www.jottacloud.com/s/19074e7919fef8e414fa3c4988e48c56d39)
+
+I received warms words of encouragement from another musician, JS0000: https://sonomu.club/@js0000/103109313152388102 . I'm very grateful, as this encourages me to do more and better! https://sonomu.club/@js0000/103109313152388102
+![](https://www.jottacloud.com/s/190a9e76d16804447afb80e3773f9ee8bf5)
+
 
 I have been collecting a number of compositions that are based on my approach. They may be found in this videolist: https://open.tube/my-account/video-playlists/94a9f75c-b2b3-4641-8f67-b94aa30960b0 and on youtube in my "Eidon' Songs" channel. Here is partial list:
 
