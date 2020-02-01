@@ -9,8 +9,8 @@ This non-triviality may be due to the fractal nature of the process. In fact, wh
 
 ## News
 
-### [Howard Bloom](https://en.wikipedia.org/wiki/Howard_Bloom) prised my music!
-Dr. Howard bloom kindly sent me a message:
+### [Howard Bloom](https://en.wikipedia.org/wiki/Howard_Bloom) praised my music!
+Dr. Howard Bloom kindly sent me a message:
 
 > *listened to the music. it's fascinating.  i can see how it gives you a metaphor for the emergence of life.*
 
