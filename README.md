@@ -10,14 +10,17 @@ This non-triviality may be due to the fractal nature of the process. In fact, wh
 ## News
 
 ### [Howard Bloom](https://en.wikipedia.org/wiki/Howard_Bloom) praised my music!
-Dr. Howard Bloom kindly sent me a message:
 
-> *listened to the music. it's fascinating.  i can see how it gives you a metaphor for the emergence of life.*
+Dr. [Howard Bloom](http://www.howardbloom.net/) kindly sent me this message:
 
-> *with warmth and oomph--howard*
+>    listened to the music. it's fascinating. i can see how it gives you a metaphor for the emergence of life.
+>    with warmth and oomph--howard
 
-From Wikipedia:
-> "Howard Bloom (born June 25, 1943) is an American author. He was a music publicist in the 1970s and 1980s for singers and bands such as Prince, Billy Joel, and Styx. He has published a book on Islam, The Muhammad Code, an autobiography, How I Accidentally Started The Sixties, and three books on human evolution and group behavior: The Genius of the Beast, Global Brain, and The Lucifer Principle."
+From [Wikipedia](https://en.wikipedia.org/wiki/Howard_Bloom):
+
+>    "Howard Bloom (born June 25, 1943) is an American author. He was a music publicist in the 1970s and 1980s for singers and bands such as Prince, Billy Joel, and Styx. He has published a book on Islam, The Muhammad Code, an autobiography, How I Accidentally Started The Sixties, and three books on human evolution and group behavior: The Genius of the Beast, Global Brain, and The Lucifer Principle."
+
+![](http://new.howardbloom.net/wp-content/uploads/2018/01/000_How-I-Accidentally-Started-the-Sixties-rare-bird-dragonfly.jpg)
 
 
 ### Czech composer Flavigula has published a piece of music that uses my approach!
