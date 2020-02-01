@@ -1,5 +1,5 @@
 # CombinatorialMusic
-The idea is simple: I consider generation of permutations as a dynamic process in which a successor permutation p' is generated from an input permutation p.
+The idea is simple: I consider generation of permutations as a dynamic process in which a successor permutation _p_' is generated from an input permutation _p_.
 
 I take those orbits, I break them into three chunks, map each chunk to a note, and play the three notes together -- that's it.
 
@@ -8,6 +8,17 @@ The thing that strikes me is that this gives rise to patterns that, at least to 
 This non-triviality may be due to the fractal nature of the process. In fact, when mapping the same process on a 3D space, I get images that are self-similar and, according to the Fractalyse tool, are characterised by a fractal dimension (see e.g. https://www.dropbox.com/s/rrjqrffx9bqzuxh/001112222.jpg?dl=0; image produced with https://github.com/Eidonko/Permutation-feed-povray).
 
 ## News
+
+### [Howard Bloom](https://en.wikipedia.org/wiki/Howard_Bloom) prised my music!
+Dr. Howard bloom kindly sent me a message:
+
+> *listened to the music. it's fascinating.  i can see how it gives you a metaphor for the emergence of life.*
+
+> *with warmth and oomph--howard*
+
+From Wikipedia:
+> "Howard Bloom (born June 25, 1943) is an American author. He was a music publicist in the 1970s and 1980s for singers and bands such as Prince, Billy Joel, and Styx. He has published a book on Islam, The Muhammad Code, an autobiography, How I Accidentally Started The Sixties, and three books on human evolution and group behavior: The Genius of the Beast, Global Brain, and The Lucifer Principle."
+
 
 ### Czech composer Flavigula has published a piece of music that uses my approach!
 Here is their "Šest": https://exode.me/videos/watch/95c0f6a2-2423-4189-a6f9-5908e1efaf2c, and here is their announcement: https://sonomu.club/@flavigula/103096645941388869
